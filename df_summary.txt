@@ -1,0 +1,184 @@
+Catchments_secondary summary:<class 'geopandas.geodataframe.GeoDataFrame'>
+RangeIndex: 436 entries, 0 to 435
+Data columns (total 19 columns):
+ #   Column      Non-Null Count  Dtype   
+---  ------      --------------  -----   
+ 0   USE_ID      436 non-null    object  
+ 1   CATCH_TYPE  436 non-null    object  
+ 2   USE_DESC    436 non-null    object  
+ 3   ADD_DATE    372 non-null    object  
+ 4   KINDERGART  436 non-null    object  
+ 5   YEAR1       436 non-null    object  
+ 6   YEAR2       436 non-null    object  
+ 7   YEAR3       436 non-null    object  
+ 8   YEAR4       436 non-null    object  
+ 9   YEAR5       436 non-null    object  
+ 10  YEAR6       436 non-null    object  
+ 11  YEAR7       436 non-null    object  
+ 12  YEAR8       436 non-null    object  
+ 13  YEAR9       436 non-null    object  
+ 14  YEAR10      436 non-null    object  
+ 15  YEAR11      436 non-null    object  
+ 16  YEAR12      436 non-null    object  
+ 17  PRIORITY    7 non-null      object  
+ 18  geometry    436 non-null    geometry
+dtypes: geometry(1), object(18)
+memory usage: 64.8+ KB
+--------------------------------------------------
+Catchments_future summary:<class 'geopandas.geodataframe.GeoDataFrame'>
+RangeIndex: 30 entries, 0 to 29
+Data columns (total 18 columns):
+ #   Column      Non-Null Count  Dtype   
+---  ------      --------------  -----   
+ 0   USE_ID      30 non-null     object  
+ 1   CATCH_TYPE  30 non-null     object  
+ 2   USE_DESC    30 non-null     object  
+ 3   ADD_DATE    30 non-null     object  
+ 4   KINDERGART  30 non-null     int32   
+ 5   YEAR1       30 non-null     int32   
+ 6   YEAR2       30 non-null     int32   
+ 7   YEAR3       30 non-null     int32   
+ 8   YEAR4       30 non-null     int32   
+ 9   YEAR5       30 non-null     int32   
+ 10  YEAR6       30 non-null     int32   
+ 11  YEAR7       30 non-null     int32   
+ 12  YEAR8       30 non-null     int32   
+ 13  YEAR9       30 non-null     int32   
+ 14  YEAR10      30 non-null     int32   
+ 15  YEAR11      30 non-null     int32   
+ 16  YEAR12      30 non-null     int32   
+ 17  geometry    30 non-null     geometry
+dtypes: geometry(1), int32(13), object(4)
+memory usage: 2.8+ KB
+--------------------------------------------------
+Catchments_primary summary:<class 'geopandas.geodataframe.GeoDataFrame'>
+RangeIndex: 1662 entries, 0 to 1661
+Data columns (total 19 columns):
+ #   Column      Non-Null Count  Dtype   
+---  ------      --------------  -----   
+ 0   USE_ID      1662 non-null   object  
+ 1   CATCH_TYPE  1662 non-null   object  
+ 2   USE_DESC    1662 non-null   object  
+ 3   ADD_DATE    1335 non-null   object  
+ 4   KINDERGART  1662 non-null   object  
+ 5   YEAR1       1662 non-null   object  
+ 6   YEAR2       1662 non-null   object  
+ 7   YEAR3       1662 non-null   object  
+ 8   YEAR4       1662 non-null   object  
+ 9   YEAR5       1662 non-null   object  
+ 10  YEAR6       1662 non-null   object  
+ 11  YEAR7       1662 non-null   object  
+ 12  YEAR8       1662 non-null   object  
+ 13  YEAR9       1662 non-null   object  
+ 14  YEAR10      1662 non-null   object  
+ 15  YEAR11      1662 non-null   object  
+ 16  YEAR12      1662 non-null   object  
+ 17  PRIORITY    4 non-null      object  
+ 18  geometry    1662 non-null   geometry
+dtypes: geometry(1), object(18)
+memory usage: 246.8+ KB
+--------------------------------------------------
+Businesses summary:<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 12217 entries, 0 to 12216
+Data columns (total 11 columns):
+ #   Column                  Non-Null Count  Dtype 
+---  ------                  --------------  ----- 
+ 0   industry_code           12217 non-null  object
+ 1   industry_name           12217 non-null  object
+ 2   sa2_code                12217 non-null  int64 
+ 3   sa2_name                12217 non-null  object
+ 4   0_to_50k_businesses     12217 non-null  int64 
+ 5   50k_to_200k_businesses  12217 non-null  int64 
+ 6   200k_to_2m_businesses   12217 non-null  int64 
+ 7   2m_to_5m_businesses     12217 non-null  int64 
+ 8   5m_to_10m_businesses    12217 non-null  int64 
+ 9   10m_or_more_businesses  12217 non-null  int64 
+ 10  total_businesses        12217 non-null  int64 
+dtypes: int64(8), object(3)
+memory usage: 1.0+ MB
+--------------------------------------------------
+Income summary:<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 642 entries, 0 to 641
+Data columns (total 6 columns):
+ #   Column         Non-Null Count  Dtype 
+---  ------         --------------  ----- 
+ 0   sa2_code21     642 non-null    int64 
+ 1   sa2_name       642 non-null    object
+ 2   earners        642 non-null    object
+ 3   median_age     642 non-null    object
+ 4   median_income  642 non-null    object
+ 5   mean_income    642 non-null    object
+dtypes: int64(1), object(5)
+memory usage: 30.2+ KB
+--------------------------------------------------
+Stops summary:<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 114718 entries, 0 to 114717
+Data columns (total 9 columns):
+ #   Column               Non-Null Count   Dtype  
+---  ------               --------------   -----  
+ 0   stop_id              114718 non-null  object 
+ 1   stop_code            60719 non-null   float64
+ 2   stop_name            114718 non-null  object 
+ 3   stop_lat             114718 non-null  float64
+ 4   stop_lon             114718 non-null  float64
+ 5   location_type        53991 non-null   float64
+ 6   parent_station       60727 non-null   object 
+ 7   wheelchair_boarding  114718 non-null  int64  
+ 8   platform_code        871 non-null     object 
+dtypes: float64(4), int64(1), object(4)
+memory usage: 7.9+ MB
+--------------------------------------------------
+Population summary:<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 373 entries, 0 to 372
+Data columns (total 21 columns):
+ #   Column              Non-Null Count  Dtype 
+---  ------              --------------  ----- 
+ 0   sa2_code            373 non-null    int64 
+ 1   sa2_name            373 non-null    object
+ 2   0-4_people          373 non-null    int64 
+ 3   5-9_people          373 non-null    int64 
+ 4   10-14_people        373 non-null    int64 
+ 5   15-19_people        373 non-null    int64 
+ 6   20-24_people        373 non-null    int64 
+ 7   25-29_people        373 non-null    int64 
+ 8   30-34_people        373 non-null    int64 
+ 9   35-39_people        373 non-null    int64 
+ 10  40-44_people        373 non-null    int64 
+ 11  45-49_people        373 non-null    int64 
+ 12  50-54_people        373 non-null    int64 
+ 13  55-59_people        373 non-null    int64 
+ 14  60-64_people        373 non-null    int64 
+ 15  65-69_people        373 non-null    int64 
+ 16  70-74_people        373 non-null    int64 
+ 17  75-79_people        373 non-null    int64 
+ 18  80-84_people        373 non-null    int64 
+ 19  85-and-over_people  373 non-null    int64 
+ 20  total_people        373 non-null    int64 
+dtypes: int64(20), object(1)
+memory usage: 61.3+ KB
+--------------------------------------------------
+Sa2_regions summary:<class 'geopandas.geodataframe.GeoDataFrame'>
+RangeIndex: 2473 entries, 0 to 2472
+Data columns (total 17 columns):
+ #   Column      Non-Null Count  Dtype   
+---  ------      --------------  -----   
+ 0   SA2_CODE21  2473 non-null   object  
+ 1   SA2_NAME21  2473 non-null   object  
+ 2   CHG_FLAG21  2473 non-null   object  
+ 3   CHG_LBL21   2473 non-null   object  
+ 4   SA3_CODE21  2473 non-null   object  
+ 5   SA3_NAME21  2473 non-null   object  
+ 6   SA4_CODE21  2473 non-null   object  
+ 7   SA4_NAME21  2473 non-null   object  
+ 8   GCC_CODE21  2473 non-null   object  
+ 9   GCC_NAME21  2473 non-null   object  
+ 10  STE_CODE21  2473 non-null   object  
+ 11  STE_NAME21  2473 non-null   object  
+ 12  AUS_CODE21  2473 non-null   object  
+ 13  AUS_NAME21  2473 non-null   object  
+ 14  AREASQKM21  2454 non-null   float64 
+ 15  LOCI_URI21  2473 non-null   object  
+ 16  geometry    2454 non-null   geometry
+dtypes: float64(1), geometry(1), object(15)
+memory usage: 328.6+ KB
+--------------------------------------------------
